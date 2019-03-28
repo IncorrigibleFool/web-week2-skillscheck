@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header{
+    background-color: grey;
+    height: 10vh;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#company{
+    margin-right: auto;
+    font-size: 2em;
+    margin-left: 2vw;
+}
+
+.nav-options{
+    margin-right: 2vw;
+}
+
+.hero{
+    background-color: black;
+    color: rgb(252, 252, 93);
+    height: 50vh;
+    font-size: 4em;
+    text-align: center;
+    line-height: 50vh;
+    font-weight: bold;
+    letter-spacing: .1px;
+}
+
+.squares{
+    display: flex;
+    justify-content: space-between;
+    padding: 5vw;
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+}
+
+.square{
+    background-color: aquamarine;
+    height: 40vh;
+    width: 40vh;
+    border-radius: 8%;
+}
+
+.rectangles{
+    display: flex;
+    justify-content: space-between;
+    padding: 5vw;
+    padding-top: 0;
+    padding-bottom: 0;
+
+}
+
+.rectangle{
+    background-color: rgb(224, 162, 81);
+    height: 35vh;
+    width:  42vw;
+}
+
+.misc{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    height: 35vh;
+    text-align: left;
+    font-size: .9em;
+}
+
+#text-box{
+    width: 30vw;
+    padding: 5vw;
+    padding-top: 4vw;
+}
+
+#picture{
+    width: 25vw;
+    padding: 3vw;
+    padding-right: 4vw;
+    padding-left: 6vw;
+    margin-right: 2vw
+}
+
+footer{
+    height: 20vh;
+    background-color: rgb(76, 67, 133)
+}
